@@ -1,2 +1,2 @@
 # Archane Landscape
- A WordPress theme
+ A WordPress theme, deployed through github.
