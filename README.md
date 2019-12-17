@@ -1,2 +1,2 @@
-# archanelandscape_2
- A new version
+# Archane Landscape
+ A WordPress theme
