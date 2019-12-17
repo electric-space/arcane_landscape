@@ -38,11 +38,11 @@
     
     <header id="masthead" class="site-header <?php echo $nobanner ;?>">
         
-        <div class="uk-container-expand uk-position-absolute uk-position-z-index uk-width-1-1 uk-padding-small">
+        <div class="uk-container-expand uk-position-absolute uk-position-z-index uk-width-1-1 uk-padding">
 
             <div class="uk-grid uk-flex uk-flex-middle" uk-grid uk-scrollspy="cls:uk-animation-fade">
 
-                <div class="uk-width-1-3">
+                <div class="uk-width-1-3@s">
 
                     <div class="site-branding uk-flex uk-flex-middle">
 
@@ -52,7 +52,7 @@
                     
                 </div>
 
-                <div class="uk-width-2-3">
+                <div class="uk-width-2-3@s">
                     <nav id="site-navigation" class="main-navigation uk-flex  uk-flex-middle uk-flex-right">
                         <?php
                         wp_nav_menu( array(

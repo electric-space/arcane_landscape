@@ -22,7 +22,7 @@
                                     
                             if( $slide['caption'] )
                             {   
-                                echo '<div class="uk-width-1-1 uk-position-center  uk-text-center uk-overlay">';
+                                echo '<div class="uk-width-1-1 uk-position-center  uk-text-center uk-overlay caption-wrapper">';
                                 echo '<div class="caption-copy" uk-scrollspy="cls: uk-animation-slide-bottom">'.$slide['caption'].'</div>';
                                 echo '</div>';
                             };
@@ -55,7 +55,7 @@
             <?php else:;?>
             
                 <div class="banner" style="background-image: url(<?php echo $image[0];?>)">
-                    <div class="uk-width-1-1 uk-position-absolute uk-position-center  uk-text-center uk-overlay ">
+                    <div class="uk-width-1-1 uk-position-absolute uk-position-center caption-wrapper  uk-text-center uk-overlay ">
                         <div class="caption-copy" uk-scrollspy="cls: uk-animation-slide-bottom"><p><?php the_title() ;?></p></div>
                     </div>
                 </div>

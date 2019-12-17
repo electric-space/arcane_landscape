@@ -1,7 +1,7 @@
 
 /* THIS CSS WAS COMPILED AND OPTIMIZED, USING THE WP COMPILER PLUGIN */
 /* https://bytes.co */
-/* Last Compiled: 2019-12-17 2:58:22 UTC */
+/* Last Compiled: 2019-12-17 5:41:31 UTC */
 
 /*!
 Theme Name: Archane Landscape
@@ -339,12 +339,14 @@ h2 {
 }
 .page-links h2 {
   color: #ffffff;
+  margin: 0;
 }
 h3 {
   font-size: 1.6rem;
   line-height: 19px;
   text-transform: uppercase;
   font-weight: 600;
+  margin: 1em 0;
 }
 p {
   font-size: 1.8rem;
@@ -375,6 +377,15 @@ blockquote p.quote-author {
 blockquote p.quote-author:before {
   content: '— ';
 }
+figure {
+  margin: 0 0 12px;
+}
+figcaption {
+  font-style: italic;
+  font-size: 1.6rem;
+  padding-top: 12px;
+  line-height: 1.2;
+}
 em {
   color: #666666;
 }
@@ -394,6 +405,7 @@ em {
   font-size: 4.7rem;
   line-height: 71px;
   letter-spacing: 2px;
+  margin-bottom: 0;
 }
 /**
  * navigation
@@ -568,7 +580,7 @@ a.mobile-close{
 .side-nav ul li a {
   text-transform: uppercase;
   font-family: proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   line-height: 18px;
   color: #c1c1c1;
   font-weight: 600;
@@ -699,7 +711,10 @@ body {
   background-size: cover;
   background-position: center center;
   min-height: 310px;
-  margin-bottom: 34px;
+  margin-bottom: 30px;
+}
+.page-links .button {
+  margin-top: 0;
 }
 .site-main.inner-page {
   padding-top: 96px;
@@ -900,6 +915,22 @@ footer.site-footer {
 @media (max-width: 640px) {
   .slide .uk-overlay {
     padding: 0;
+  }
+  .caption-wrapper {
+    top: 60%;
+    left: auto;
+    transform: none;
+  }
+  .caption-copy p:first-child {
+    margin-bottom: 1%;
+  }
+  .open-menu {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  .custom-logo-link {
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=/Users/neilmickleburgh/Local Sites/arcane-landscape/app/public/wp-content/themes/arcane_landscape/style.css.map */
