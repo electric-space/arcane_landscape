@@ -1,0 +1,122 @@
+/**
+ * Layout
+ */
+
+
+
+
+
+/**
+ * Fader
+ * This fades the page in.
+ * <script>$(document).ready(function(){ $('body').addClass('loaded').removeClass('hidden'); });</script>
+ */
+
+
+body.hidden{
+    opacity: 0;
+}
+
+
+body.loaded{
+    transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    opacity: 1;
+
+}
+
+
+
+
+
+html{
+    background:lighten( @grey, 60%);  //uncomment to fade pages from black
+    background:#000;
+
+}
+
+
+body{
+    background:@white;
+}
+
+
+
+
+
+.page-wrapper{
+    background:@white;
+//     text-align:center;
+}
+
+
+.full-width section{
+    padding-top:24px;
+    padding-bottom:24px;
+}
+
+
+
+
+.hentry{
+    margin:@baseline*2 0 0;
+    &:first-of-type{
+        margin-top:0;
+    }
+}
+
+
+
+// front page
+
+.page-links{
+    
+    text-align:center;
+    
+    .block-image{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        min-height: 310px;
+        margin-bottom: 34px;
+    }
+}
+
+
+
+
+// inner pages
+
+
+.site-main.inner-page{
+    padding-top:96px;
+    padding-bottom:96px;
+}
+
+
+
+
+// utils
+
+.spacer{
+    height:1px;
+        margin: (@baseline) - 1 0 @baseline; 
+    
+    &.x2{
+       margin: (@baseline*2) - 1 0 @baseline*2; 
+    }
+    
+    &.x3{
+       margin:(@baseline*3) - 1 0 @baseline*3; 
+    }
+}
+
+
+
+
+
+
+
+
+

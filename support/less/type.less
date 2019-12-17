@@ -1,0 +1,112 @@
+/**
+ * type
+ */
+
+h1{
+    font-family: @font-body;
+    font-size:3.2rem;
+    line-height: 38px;
+}
+
+h2{
+    font-size:3rem;
+    text-transform: uppercase;
+    font-weight:700;
+}
+
+
+.page-links h2{
+    color:@white;
+}
+
+
+h3{
+    font-size:1.6rem;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight:600;
+}
+
+
+
+
+p{
+    font-size:1.8rem;
+    font-family: @font-body;
+    line-height:29px;
+    
+}
+
+
+
+blockquote{
+    text-align:center;
+    &:before{
+        content:"\201c";
+        color: @grey;
+        font-size:8rem;
+        line-height:0;
+        display:block;
+        padding-left:@baseline;
+        padding-right:@baseline;
+
+    }
+    p{
+        font-size:2rem;
+        line-height:33px;
+        font-style:italic;    
+    }
+    
+    p.quote-author{
+        font-size:1.8rem;
+        color:@grey;
+        &:before{
+            content:'— ';
+        }
+    }
+    
+    
+    
+    
+}
+
+
+
+
+em{
+    color:@copy;
+}
+
+
+
+
+
+
+
+
+.caption-copy *{
+    color:@white;
+}
+
+
+.caption-copy{
+    p:first-child{
+        letter-spacing: 1px;
+        font-size:5.4rem;
+        line-height:1.2;
+        text-transform:uppercase;
+        font-weight:700;
+        font-family: @font-heading;
+    }
+    
+    
+    p:nth-child(2){
+        font-family: adobe-garamond-pro, Georgia, serif;
+        font-size:4.7rem;
+        line-height: 71px;
+        letter-spacing: 2px;
+    }
+}
+
+
+
